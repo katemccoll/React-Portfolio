@@ -49,5 +49,5 @@ nav a:hover {
     border: 0.2rem solid var(--white);
     border-radius: 1rem;
     font-size: 14px;
-
+    padding: 4px 2px;
 }
