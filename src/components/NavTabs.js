@@ -1,17 +1,10 @@
 import React from "react";
+import './styles/NavTabs.css'
 
 function NavTabs({currentPage, handlePageChange}) {
     return (
-        <div>
-            <h1><a
-                href="#home"
-                onClick={() => handlePageChange('Home')}
-                // This is a conditional (ternary) operator that checks to see if the current page is "Home"
-                // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
-                className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
-            >
-                K
-            </a></h1>
+        <div className="nav-tab">
+            <h1>K</h1>
             <nav>
                 <ul>
                     <li>
