@@ -1,11 +1,18 @@
 import React from "react";
+import "./assets/css/Project.css";
+import TechReady from "./assets/images/portfolio/techReady.jpg";
+import SuperHero from "./assets/images/portfolio/marvel_superhero_locator.JPG";
+import TechBlog from "./assets/images/portfolio/techBlog.JPG";
+import WeatherDashboard from "./assets/images/portfolio/weather_dashboard.JPG";
+import NoteTaker from "./assets/images/portfolio/note-taker.JPG";
+import WorkDay from "./assets/images/portfolio/work_day.JPG";
 
 function Project() {
     return (
         <div>
-            <section>
+            <section className="margin2">
                 <article className="main-project">
-                    <img className="large_image" src="./assets/images/portfolio/techReady.jpg"
+                    <img className="large_image" src={TechReady}
                          alt="Tech Ready" />
                         <div className="text-block">
                             <p className="featured">Featured Project</p>
@@ -32,7 +39,7 @@ function Project() {
                 </article>
 
                 <article className="main-project">
-                    <img className="large_image" src="./assets/images/portfolio/marvel_superhero_locator.JPG"
+                    <img className="large_image" src={SuperHero}
                          alt="Marvel Superhero Locator" />
                         <div className="text-block">
                             <p className="featured">Featured Project</p>
@@ -60,7 +67,7 @@ function Project() {
                     <article className="small-project">
                         <div>
                             <img className="small_image" alt="Tech Blog"
-                                 src="./assets/images/portfolio/techBlog.JPG" target="_blank" />
+                                 src={TechBlog} target="_blank" />
                                 <div className="text-block">
                                     <h3 className="featured-title">Tech Blog</h3>
                                     <p> A CMS-style blog site similar to a Wordpress site,
@@ -84,10 +91,10 @@ function Project() {
                     </article>
                     <article className="small-project">
                         <div>
-                            <img alt="Note Tacker" src="./assets/images/portfolio/note-taker.JPG"
+                            <img alt="Note Taker" src={NoteTaker}
                                  className="small_image" />
                                 <div className="text-block">
-                                    <h3 className="featured-title">Note Tacker</h3>
+                                    <h3 className="featured-title">Note Taker</h3>
                                     <p>Note-taker is an application that can be used to write, save and delete
                                         notes.</p>
                                     <ul>
@@ -110,7 +117,7 @@ function Project() {
                     <article className="small-project">
                         <div>
                             <img className="small_image" alt="Weather Dashboard"
-                                 src="./assets/images/portfolio/weather_dashboard.JPG" />
+                                 src={WeatherDashboard} />
                                 <div className="text-block">
                                     <h3 className="featured-title">Weather Dashboard</h3>
                                     <p>Using Open Weather Map API to build a weather dashboard to search any city's
@@ -132,7 +139,7 @@ function Project() {
                     </article>
                     <article className="small-project">
                         <div>
-                            <img alt="Day Planner" src="./assets/images/portfolio/work_day.JPG" className="small_image" />
+                            <img alt="Day Planner" src={WorkDay} className="small_image" />
                                 <div className="text-block">
                                     <h3 className="featured-title">Day Planner</h3>
                                     <p>A single web page day planner to keep track of event on for the day.</p>
