@@ -1,0 +1,47 @@
+:root {
+    --white: #ffffff;
+    --pink: #fa8071;
+    --darker-pink: #f46459;
+}
+
+#home {
+    background-image: url(../images/dunedin_dark.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.center {
+    padding: 2rem;
+    text-align: center;
+    max-width: initial;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+
+.cursor {
+    border-bottom: 0.4rem solid;
+    animation: caret 1s steps(1) infinite;
+    padding: 0 1rem 0 1rem;
+    font-size: 0;
+    margin-left: 0.5rem;
+}
+
+@keyframes caret {
+    50% {
+        border-color: transparent;
+    }
+}
+
