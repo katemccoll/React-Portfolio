@@ -1,10 +1,11 @@
 import React from "react";
+import "./assets/css/About.css";
 
 export default function About() {
     return (
         <div>
             <div id="about">
-                <img id="profile" src="assets/images/Me.jpg" alt="Kate McColl"/>
+                <div id="profile"></div>
             </div>
             <article id="about-me">
                 <p>

@@ -1,0 +1,36 @@
+:root {
+    --white: #ffffff;
+    --pink: #fa8071;
+    --darker-pink: #f46459;
+}
+
+#about {
+    text-align: center;
+    margin: auto;
+    padding: 14px;
+    width: 80%;
+    border-bottom: 5px solid var(--darker-pink);
+    text-align: -webkit-center;
+}
+
+#profile {
+    border: 5px solid var(--darker-pink);
+    border-radius: 1rem;
+    background-image: url(../images/Me.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 80%;
+}
+
+#about-me {
+    width: 80%;
+    border-bottom: 5px solid var(--darker-pink);
+    margin: auto;
+    text-align: center;
+    line-height: 1.5;
+}
+
+p {
+    margin: 14px 0;
+}
+
