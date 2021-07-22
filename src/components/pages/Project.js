@@ -23,9 +23,9 @@ function Project() {
                             </ul>
                             <div className="icon">
                                 <a href="https://gentle-headland-96957.herokuapp.com/"
-                                   target="_blank"><i className="fas fa-link"></i></a>
+                                   target="_blank" rel="noreferrer"><i className="fas fa-link"></i></a>
                                 <a href="https://github.com/katemccoll/Project-2-TechREADY"
-                                   target="_blank"><i className="fab fa-github-square"></i></a>
+                                   target="_blank" rel="noreferrer"><i className="fab fa-github-square"></i></a>
                             </div>
                         </div>
 
@@ -97,7 +97,7 @@ function Project() {
                                     </ul>
                                     <div className="icon">
                                         <a href="https://secret-oasis-60851.herokuapp.com/"
-                                           target="_blank"><i className="fas fa-link"></i></a>
+                                           target="_blank" rel="noreferrer"><i className="fas fa-link"></i></a>
                                         <a href="https://github.com/katemccoll/Note-Taker" target="_blank" rel="noreferrer"><i
                                             className="fab fa-github-square"></i></a>
                                     </div>
