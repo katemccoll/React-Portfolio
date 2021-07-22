@@ -4,7 +4,7 @@ import './styles/NavTabs.css'
 function NavTabs({currentPage, handlePageChange}) {
     return (
         <div className="nav-tab">
-            <h1>K</h1>
+            <h1 id="logo">K</h1>
             <nav>
                 <ul>
                     <li>
