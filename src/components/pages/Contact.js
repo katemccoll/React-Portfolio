@@ -1,22 +1,40 @@
 import React from 'react';
+import { useForm } from "react-hook-form";
+import "./assets/css/Contact.css";
 
 export default function Contact() {
+
+    const handleFormSubmit = (e) => {
+        e.preventDefault();
+    }
+
     return (
         <div>
-            <h2>Contact</h2>
-            <ul className="content">
-                <li><a href="tel:+61490808496">Click to Call</a></li>
-                <li>
-                    <a href="mailto:kate@katemccollart.com">Email Me</a>
-                </li>
-                <li>
-                    <a href="https://github.com/katemccoll" target="_blank" rel="noreferrer">GitHub</a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/kate-mccoll-a59389205/" target="_blank" rel="noreferrer">LinkedIn</a>
-                </li>
+            <div>
+                <h2>Contact</h2>
+            </div>
+            <div>
+                <form className="form" onSubmit={handleFormSubmit}>
+                    <label htmlFor="Name">Name:</label>
+                    <input
+                        name="name"
+                        type="text"
+                        placeholder="Your name.."
+                    />
+                    <label htmlFor="email">Email</label>
+                    <input
+                        name="email"
 
-            </ul>
+                        type="email"
+                        placeholder="Your email.."
+                    />
+                    <label htmlFor="message">Message:</label>
+                    <textarea name="message" placeholder="Write something.." cols="40" rows="4">
+
+                    </textarea>
+                    <button type="button" onClick={handleFormSubmit}>Submit</button>
+                </form>
+            </div>
         </div>
     );
 }
