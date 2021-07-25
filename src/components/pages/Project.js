@@ -6,6 +6,7 @@ import TechBlog from "./assets/images/portfolio/techBlog.JPG";
 import WeatherDashboard from "./assets/images/portfolio/weather_dashboard.JPG";
 import NoteTaker from "./assets/images/portfolio/note-taker.JPG";
 import WorkDay from "./assets/images/portfolio/work_day.JPG";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 function Project() {
     return (
@@ -30,9 +31,9 @@ function Project() {
                             </ul>
                             <div className="icon">
                                 <a href="https://gentle-headland-96957.herokuapp.com/"
-                                   target="_blank" rel="noreferrer"><i className="fas fa-link"></i></a>
+                                   target="_blank" rel="noreferrer"><FontAwesomeIcon icon={["fas", "link"]} /></a>
                                 <a href="https://github.com/katemccoll/Project-2-TechREADY"
-                                   target="_blank" rel="noreferrer"><i className="fab fa-github-square"></i></a>
+                                   target="_blank" rel="noreferrer"><FontAwesomeIcon icon={['fab', 'github']} /></a>
                             </div>
                         </div>
 
@@ -58,7 +59,7 @@ function Project() {
                                 <a href="https://katemccoll.github.io/TeamProject-Marvel-Superhero-Locator"
                                    target="_blank" rel="noreferrer"><i className="fas fa-link"></i></a>
                                 <a href="https://github.com/katemccoll/TeamProject-Marvel-Superhero-Locator"
-                                   target="_blank" rel="noreferrer"><i className="fab fa-github-square"></i></a>
+                                   target="_blank" rel="noreferrer"><FontAwesomeIcon icon={['fab', 'github']} /></a>
                             </div>
                         </div>
 
