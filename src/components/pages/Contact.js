@@ -9,11 +9,11 @@ export default function Contact() {
     }
 
     return (
-        <div>
-            <div>
-                <h2>Contact</h2>
+        <div id="background">
+            <div id="text">
+                <h2>Hello, interested to get in contact with me?</h2>
             </div>
-            <div>
+            <div id="card">
                 <form className="form" onSubmit={handleFormSubmit}>
                     <label htmlFor="Name">Name:</label>
                     <input
