@@ -30,18 +30,31 @@ h2 {
     font-size: 28px;
 }
 
+@media screen and (min-width: 426px) {
+    #home {
+        background-image: url(../images/dunedin_dark.jpg);
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        color: var(--white);
+        display: flex;
+        justify-content: center;
+        height: 1000px;
+        align-items: center;
+    }
+    .center {
+        margin: 10rem 0;
+        padding: 2rem;
+        text-align: center;
+        font-size: 3rem;
+        max-width: initial;
+        height: 20rem;
+    }
 
-.cursor {
-    border-bottom: 0.4rem solid;
-    animation: caret 1s steps(1) infinite;
-    padding: 0 1rem 0 1rem;
-    font-size: 0;
-    margin-left: 0.5rem;
-}
-
-@keyframes caret {
-    50% {
-        border-color: transparent;
+    h1 {
+        font-size: 80px;
+    }
+    h2 {
+        font-size: 40px;
     }
 }
-
