@@ -22,3 +22,14 @@
     border-radius: 1rem;
 }
 
+@media screen and (min-width: 426px) {
+    .footer {
+        height: 110px;
+    }
+    .footer-icon {
+        font-size: 36px;
+    }
+    .footer-icon:hover {
+        font-size: 36px;
+    }
+}
