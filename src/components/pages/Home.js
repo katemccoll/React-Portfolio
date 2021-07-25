@@ -6,7 +6,7 @@ function Home() {
         <div id="home">
             <section className="center">
                 <h1>Kate McColl</h1>
-                <h2>Web Developer</h2>
+                <h2>Hello, I am a Web Developer from Dunedin, NZ.</h2>
             </section>
         </div>
     );
