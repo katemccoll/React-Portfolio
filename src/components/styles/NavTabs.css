@@ -28,7 +28,6 @@ nav ul {
     align-items: center;
     padding-right: 0;
     height: 100%;
-    justify-content: space-around;
 }
 
 nav ul li {
@@ -38,18 +37,16 @@ nav ul li {
 
 nav a {
     color: var(--white);
-    /*padding: 0.5rem 1rem;*/
-    /*margin: 1rem;*/
     text-decoration: none;
     border: 0.2rem solid transparent;
     font-size: 14px;
+    padding: 4px 2px;
 }
 
 nav a:hover {
     border: 0.2rem solid var(--white);
     border-radius: 1rem;
     font-size: 14px;
-    padding: 4px 2px;
 }
 
 @media screen and (min-width: 426px) {
@@ -81,7 +78,6 @@ nav a:hover {
         border: 0.2rem solid var(--white);
         border-radius: 1rem;
         font-size: 18px;
-
     }
 
     #logo {
@@ -91,6 +87,20 @@ nav a:hover {
         margin: 1rem;
         background-color: var(--darker-pink);
         font-size: 24px;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        background-color: var(--darker-pink);
+    }
+
+    header h1 {
+        padding-left: 50px;
+        font-size: 2vw;
+        background-color: var(--pink);
+        color: var(--white);
     }
 
 }
