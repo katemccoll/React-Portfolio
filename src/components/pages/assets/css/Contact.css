@@ -1,5 +1,24 @@
+#background {
+    background-image: url(../images/dunedin_light.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    color: var(--white);
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#text {
+    text-align: center;
+}
+
 .form {
-    margin: 20px;
+    font-size: 18px;
+}
+
+#card {
+    padding: 10px;
 }
 
 .form input {
@@ -7,9 +26,36 @@
     margin-top: 5px;
     margin-bottom: 5px;
     width: 100%;
+    padding: 5px;
+    font-size: 14px;
+    border: none;
 }
 
 textarea {
     height: 10em;
     width: 100%;
+    padding: 5px;
+    font-size: 14px;
+    border: none;
+
+}
+
+button {
+    padding: 6px;
+    background-color: white;
+    border: 2px white;
+}
+
+@media screen and (min-width: 426px) {
+    #card {
+        background-color: #f46459;
+        margin: 10px;
+        padding: 16px;
+        border-radius: 6px;
+    }
+    #background {
+        display: flex;
+        height: 1000px;
+    }
+
 }
