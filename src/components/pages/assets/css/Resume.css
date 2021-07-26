@@ -1,0 +1,49 @@
+#background-resume {
+    background-image: url(../images/dunedin_light.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    color: var(--white);
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#card-resume {
+    background-color: #f46459;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 6px;
+}
+
+p,
+li {
+    font-size: 18px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#resume-btn {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (min-width: 426px) {
+    #background-resume {
+        display: block;
+        height: 800px;
+    }
+    h2 {
+        margin: 80px;
+    }
+    #container {
+        display: flex;
+        place-content: center
+    }
+    #card-resume {
+        width: 45%;
+    }
+
+}
