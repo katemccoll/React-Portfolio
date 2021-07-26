@@ -28,6 +28,11 @@ h2 {
 #resume-btn {
     text-decoration: none;
     color: black;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 5px;
 }
 
 @media screen and (min-width: 426px) {
