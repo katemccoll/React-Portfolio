@@ -47,6 +47,7 @@
     width: 100%;
 
 }
+
 .content {
     align-self: center;
     font-size: 18px;
@@ -96,16 +97,16 @@
     margin: 5px 20px 0 0;
 }
 
-.fa-link,
-.fa-github-square {
+.icon-link,
+.icon-github {
     color: var(--pink);
-    font-size: 25px;
+    font-size: 40px;
     padding: 6px;
     border: 0.2rem solid transparent;
 }
 
-.fa-link:hover,
-.fa-github-square:hover {
+.icon-link:hover,
+.icon-github:hover {
     border: 0.2rem solid var(--pink);
     border-radius: 1rem;
 }
@@ -214,16 +215,15 @@
         margin: 5px 20px 0 0;
     }
 
-    .fa-link,
-    .fa-github-square {
+    .icon-link,
+    .icon-github {
         color: var(--pink);
-        font-size: 25px;
         padding: 6px;
         border: 0.2rem solid transparent;
     }
 
-    .fa-link:hover,
-    .fa-github-square:hover {
+    .icon-link:hover,
+    .icon-github:hover {
         border: 0.2rem solid var(--pink);
         border-radius: 1rem;
     }
