@@ -9,7 +9,6 @@
     margin: auto;
     padding: 14px;
     width: 80%;
-    border-bottom: 5px solid var(--darker-pink);
     text-align: -webkit-center;
 }
 
@@ -23,9 +22,9 @@
 }
 
 #about-me {
-    width: 80%;
+    border-top: 5px solid var(--darker-pink);
     border-bottom: 5px solid var(--darker-pink);
-    margin: auto;
+    margin: 40px;
     text-align: center;
     line-height: 1.5;
 }
@@ -34,3 +33,16 @@ p {
     margin: 14px 0;
 }
 
+@media screen and (min-width: 426px) {
+    #profile {
+        width: 100%;
+        height: 500px;
+        background-position: center;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    #flex {
+        display: flex;
+    }
+}
