@@ -9,8 +9,15 @@ function Resume() {
             <h2>Looking for a front end developer?</h2>
             <div id="container">
                 <div id="card-resume">
-                    <p>I have just completed Monash University Coding Bootcamp. Intense 24 weeks of learning full stack
-                        web development. Check out my resume to learn more about me!</p>
+                    <p>Some of the skills I have gained from Monash University Coding Bootcamp</p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>jQuery</li>
+                        <li>Node.js</li>
+                        <li>React</li>
+                    </ul>
                     <button type="button">
                         <a id="resume-btn" href={ResumeDoc} download="Web_Developer_Resume_Kate_McColl" target="_blank">Download my resume</a>
                     </button>
