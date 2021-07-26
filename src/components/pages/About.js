@@ -3,7 +3,7 @@ import "./assets/css/About.css";
 
 export default function About() {
     return (
-        <div>
+        <div id="flex">
             <div id="about">
                 <div id="profile"></div>
             </div>
