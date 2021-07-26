@@ -29,11 +29,11 @@ function Project() {
                                 <li>Node</li>
                                 <li>JWT</li>
                             </ul>
-                            <div className="icon">
+                            <div>
                                 <a href="https://gentle-headland-96957.herokuapp.com/"
-                                   target="_blank" rel="noreferrer"><FontAwesomeIcon icon={["fas", "link"]} /></a>
+                                   target="_blank" rel="noreferrer" className="icon-link"><FontAwesomeIcon icon={["fas", "link"]} /></a>
                                 <a href="https://github.com/katemccoll/Project-2-TechREADY"
-                                   target="_blank" rel="noreferrer"><FontAwesomeIcon icon={['fab', 'github']} /></a>
+                                   target="_blank" rel="noreferrer" className="icon-github"><FontAwesomeIcon icon={['fab', 'github']} /></a>
                             </div>
                         </div>
 
@@ -57,9 +57,9 @@ function Project() {
                             </ul>
                             <div className="icon">
                                 <a href="https://katemccoll.github.io/TeamProject-Marvel-Superhero-Locator"
-                                   target="_blank" rel="noreferrer"><i className="fas fa-link"></i></a>
+                                   target="_blank" rel="noreferrer" className="icon-link"><FontAwesomeIcon icon={["fas", "link"]} /></a>
                                 <a href="https://github.com/katemccoll/TeamProject-Marvel-Superhero-Locator"
-                                   target="_blank" rel="noreferrer"><FontAwesomeIcon icon={['fab', 'github']} /></a>
+                                   target="_blank" rel="noreferrer" className="icon-github"><FontAwesomeIcon icon={['fab', 'github']} /></a>
                             </div>
                         </div>
 
@@ -82,10 +82,12 @@ function Project() {
                                     </ul>
                                     <div className="icon">
                                         <a href="https://hidden-retreat-02954.herokuapp.com/dashboard"
-                                           target="_blank" rel="noreferrer"><i
-                                            className="fas fa-link"></i></a>
-                                        <a href="https://github.com/katemccoll/Tech-Blog" target="_blank" rel="noreferrer"><i
-                                            className="fab fa-github-square"></i></a>
+                                           target="_blank" rel="noreferrer" className="icon-link">
+                                            <FontAwesomeIcon icon={["fas", "link"]} />
+                                        </a>
+                                        <a href="https://github.com/katemccoll/Tech-Blog" target="_blank" rel="noreferrer" className="icon-github">
+                                            <FontAwesomeIcon icon={['fab', 'github']} />
+                                        </a>
                                     </div>
                                 </div>
                         </div>
@@ -103,11 +105,13 @@ function Project() {
                                         <li>Bootstrap</li>
                                         <li>Local Storage</li>
                                     </ul>
-                                    <div className="icon">
+                                    <div>
                                         <a href="https://secret-oasis-60851.herokuapp.com/"
-                                           target="_blank" rel="noreferrer"><i className="fas fa-link"></i></a>
-                                        <a href="https://github.com/katemccoll/Note-Taker" target="_blank" rel="noreferrer"><i
-                                            className="fab fa-github-square"></i></a>
+                                           target="_blank" rel="noreferrer" className="icon-link">
+                                            <FontAwesomeIcon icon={["fas", "link"]} />
+                                        </a>
+                                        <a href="https://github.com/katemccoll/Note-Taker" target="_blank" rel="noreferrer" className="icon-github">
+                                            <FontAwesomeIcon icon={['fab', 'github']} /></a>
                                     </div>
                                 </div>
                         </div>
@@ -130,10 +134,11 @@ function Project() {
                                         <li>Local Storage</li>
                                     </ul>
                                     <div className="icon">
-                                        <a href="https://katemccoll.github.io/Weather_Dashboard/" target="_blank" rel="noreferrer"><i
-                                            className="fas fa-link"></i></a>
-                                        <a href="https://github.com/katemccoll/Weather_Dashboard" target="_blank" rel="noreferrer"><i
-                                            className="fab fa-github-square"></i></a>
+                                        <a href="https://katemccoll.github.io/Weather_Dashboard/" target="_blank" rel="noreferrer" className="icon-link">
+                                        <FontAwesomeIcon icon={["fas", "link"]} /></a>
+                                        <a href="https://github.com/katemccoll/Weather_Dashboard" target="_blank" rel="noreferrer" className="icon-github">
+                                            <FontAwesomeIcon icon={['fab', 'github']} />
+                                        </a>
                                     </div>
                                 </div>
                         </div>
@@ -151,9 +156,10 @@ function Project() {
                                     </ul>
                                     <div className="icon">
                                         <a href="https://katemccoll.github.io/Work_Day_Scheduler/Develop/index.html"
-                                           target="_blank" rel="noreferrer"><i className="fas fa-link"></i></a>
-                                        <a href="https://github.com/katemccoll/Work_Day_Scheduler" target="_blank" rel="noreferrer"><i
-                                            className="fab fa-github-square"></i></a>
+                                           target="_blank" rel="noreferrer" className="icon-link"><FontAwesomeIcon icon={["fas", "link"]} /></a>
+                                        <a href="https://github.com/katemccoll/Work_Day_Scheduler" target="_blank" rel="noreferrer" className="icon-github">
+                                            <FontAwesomeIcon icon={['fab', 'github']} />
+                                        </a>
                                     </div>
                                 </div>
                         </div>
