@@ -1,11 +1,10 @@
 # React-Portfolio
 
 ## Description
-I created this portfolio using my new React skills, which will help set me apart from other developers whose portfolios don’t use the latest technologies.
+I created this mobile-first portfolio using my new React skills, which will help set me apart from other developers whose portfolios don’t use the latest technologies.
 
 ### Live Link:
-https://scenic-voyageurs-87933.herokuapp.com/?id=60e279ad18009e0015544582
-
+https://katemccoll.github.io/React-Portfolio/
 
 ## Table of Contents
 - [User Story](#user-story)
