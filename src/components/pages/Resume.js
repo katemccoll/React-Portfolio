@@ -19,7 +19,7 @@ function Resume() {
                         <li>React</li>
                     </ul>
                     <button type="button">
-                        <a id="resume-btn" href={ResumeDoc} download="Web_Developer_Resume_Kate_McColl" target="_blank">Download my resume</a>
+                        <a id="resume-btn" href={ResumeDoc} download="Web_Developer_Resume_Kate_McColl" target="_blank" rel="noreferrer">Download my resume</a>
                     </button>
                 </div>
                 <div id="card-resume">
