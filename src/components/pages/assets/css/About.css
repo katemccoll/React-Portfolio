@@ -15,7 +15,7 @@
 #profile {
     border: 5px solid var(--darker-pink);
     border-radius: 1rem;
-    background-image: url(../images/Me.jpg);
+    background-image: url(../images/Kate-McColl-Profile.jpg);
     background-size: cover;
     height: 200px;
     width: 80%;
@@ -27,6 +27,7 @@
     margin: 40px;
     text-align: center;
     line-height: 1.5;
+    margin: 40px;
 }
 
 p {
@@ -42,7 +43,17 @@ p {
 }
 
 @media screen and (min-width: 1440px){
-    #flex {
+    #about-container {
         display: flex;
+        width: 60%;
+        margin: 85px auto;
+    }
+
+    #about-me {
+        width: 50%;
+    }
+
+    #about {
+        width: 40%;
     }
 }
