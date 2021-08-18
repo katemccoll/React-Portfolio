@@ -19,6 +19,7 @@
     background-size: cover;
     height: 200px;
     width: 80%;
+    background-position: center;
 }
 
 #about-me {
