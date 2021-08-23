@@ -1,6 +1,7 @@
 .heroContainer {
     display: grid;
     background-color: #aac38e;
+    padding-top: 60px;
 }
 
 .heroText h1,
@@ -14,7 +15,7 @@
 
 }
 
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 768px) {
     .heroContainer {
         display: flex;
         flex-direction: row-reverse;

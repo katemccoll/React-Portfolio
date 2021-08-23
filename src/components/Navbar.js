@@ -1,7 +1,9 @@
 import React, { useState } from "react";
-import './styles/NavTabs.css'
+import './styles/Navbar.css'
+import { Link } from "react-router-dom";
 
-function NavTabs({currentPage, handlePageChange}) {
+
+const Navbar = () => {
 
     const [click, setClick] = useState(false);
 
@@ -10,60 +12,42 @@ function NavTabs({currentPage, handlePageChange}) {
     const closeMobileMenu = () => setClick(false);
 
     return (
-        <div className="nav-tab">
-            <h1 id="logo">K</h1>
-            <nav>
+        <nav className="navbar">
+            <Link to='/' className="navbar-logo" onClick={closeMobileMenu} />
+            <div className="menu-icon" onClick={handleClick}>
+                <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+            </div>
                 <ul className={click ? 'navbar-menu active' : "navbar-menu"}>
-                    <li>
-                        <a
-                            href="#home"
-                            onClick={() => handlePageChange('Home')}
-                            className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
-                        >
+                    <li className="nav-item">
+                        <Link to="/" className="nav-link" onClick={closeMobileMenu}>
                             Home
-                        </a>
+                        </Link>
                     </li>
-                    <li>
-                        <a
-                            href="#about"
-                            onClick={() => handlePageChange('About')}
-                            className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
-                        >
+                    <li className="nav-item">
+                        <Link to="/about" className="nav-link" onClick={closeMobileMenu}>
                             About
-                        </a>
+                        </Link>
                     </li>
-                    <li>
-                        <a
-                            href="#project"
-                            onClick={() => handlePageChange('Project')}
-                            className={currentPage === 'Project' ? 'nav-link active' : 'nav-link'}
-                        >
+                    <li className="nav-item">
+                        <Link to="/projects" className="nav-link" onClick={closeMobileMenu}>
                             Projects
-                        </a>
+                        </Link>
                     </li>
-                    <li>
-                        <a
-                            href="#resume"
-                            onClick={() => handlePageChange('Resume')}
-                            className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
-                        >
+                    <li className="nav-item">
+                        <Link to="/resume" className="nav-link" onClick={closeMobileMenu}>
                             Resume
-                        </a>
+                        </Link>
                     </li>
-                    <li>
-                        <a
-                            href="#contact"
-                            onClick={() => handlePageChange('Contact')}
-                            className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
-                        >
+                    <li className="nav-item">
+                        <Link to="/contact" className="nav-link" onClick={closeMobileMenu}>
                             Contact
-                        </a>
+                        </Link>
                     </li>
                 </ul>
-            </nav>
-        </div>
+
+        </nav>
     );
 }
 
-export default NavTabs;
+export default Navbar;
 
