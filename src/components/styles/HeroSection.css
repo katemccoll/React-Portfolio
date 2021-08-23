@@ -1,0 +1,40 @@
+.heroContainer {
+    display: grid;
+    background-color: #aac38e;
+}
+
+.heroText h1,
+.heroText h3{
+    padding: 40px 25px 0;
+    text-align: end;
+}
+
+.heroImage {
+    width: 100%;
+
+}
+
+@media screen and (min-width: 425px) {
+    .heroContainer {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+
+    }
+
+    .heroText {
+        align-self: center;
+    }
+
+    .heroImage {
+        width: 50%;
+
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .heroImage {
+        width: auto;
+        height: 92vh;
+    }
+}

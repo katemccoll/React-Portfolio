@@ -22,13 +22,6 @@
     max-width: initial;
 }
 
-h1 {
-    font-size: 36px;
-}
-
-h2 {
-    font-size: 28px;
-}
 
 @media screen and (min-width: 426px) {
     #home {
@@ -48,12 +41,5 @@ h2 {
         font-size: 3rem;
         max-width: initial;
         height: 20rem;
-    }
-
-    h1 {
-        font-size: 80px;
-    }
-    h2 {
-        font-size: 40px;
     }
 }
