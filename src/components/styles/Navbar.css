@@ -3,7 +3,7 @@
     --pink: #fa8071;
     --darker-pink: #f46459;
 }
-.nav-tab {
+.navbar {
     display: flex;
     background-color: var(--darker-pink);
     justify-content: space-between;

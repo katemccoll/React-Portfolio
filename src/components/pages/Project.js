@@ -8,7 +8,7 @@ import NoteTaker from "./assets/images/portfolio/note-taker.JPG";
 import WorkDay from "./assets/images/portfolio/work_day.JPG";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
-function Project() {
+function Projects() {
     return (
         <div>
             <section className="margin2">
@@ -170,4 +170,4 @@ function Project() {
     );
 }
 
-export default Project;
+export default Projects;

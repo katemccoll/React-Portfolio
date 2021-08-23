@@ -43,5 +43,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://katemccoll.github.io/React-Portfolio/"
+  "homepage": "https://katemccoll.github.io/React-Portfolio/",
+  "devDependencies": {
+    "react-router-dom": "^5.2.0"
+  }
 }

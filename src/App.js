@@ -1,10 +1,33 @@
-// import logo from './logo.svg';
-import './App.css';
 import React from "react";
-import PortfolioContainer from "./components/PortfolioContainer";
-import initFontAwesome from "./components/pages/assets/js/initFontAwesome";
-initFontAwesome();
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-const App = () => <PortfolioContainer />;
+import Navbar from "./components/Navbar";
+import Home from "./components/pages/Home";
+import About from "./components/pages/About";
+import Projects from "./components/pages/Project";
+import Contact from "./components/pages/Contact";
+import Resume from "./components/pages/Resume";
+import Footer from "./components/Footer";
+
+import './App.css';
+import initFontAwesome from "./components/initFontAwesome";
+
+initFontAwesome()
+
+function App() {
+    return (
+        <Router>
+            <Navbar />
+            <Switch>
+                <Route path='/' exact component={Home} />
+                <Route path='/about' component={About} />
+                <Route path='/projects' component={Projects} />
+                <Route path='/contact' component={Contact} />
+                <Route path='/resume' component={Resume} />
+            </Switch>
+            <Footer />
+        </Router>
+    );
+}
 
 export default App;

@@ -1,12 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import './styles/NavTabs.css'
 
 function NavTabs({currentPage, handlePageChange}) {
+
+    const [click, setClick] = useState(false);
+
+    const handleClick = () => setClick(!click);
+
+    const closeMobileMenu = () => setClick(false);
+
     return (
         <div className="nav-tab">
             <h1 id="logo">K</h1>
             <nav>
-                <ul>
+                <ul className={click ? 'navbar-menu active' : "navbar-menu"}>
                     <li>
                         <a
                             href="#home"
@@ -47,7 +54,6 @@ function NavTabs({currentPage, handlePageChange}) {
                         <a
                             href="#contact"
                             onClick={() => handlePageChange('Contact')}
-                            // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
                             className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
                         >
                             Contact
