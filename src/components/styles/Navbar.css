@@ -6,7 +6,11 @@
     background-color: transparent;
     position: fixed;
     width: 100%;
+    top: 0;
+    transition: top 0.3s;
 }
+
+
 
 .navbar-logo {
     background-image: url("../pages/assets/images/logo2.png");
@@ -60,16 +64,20 @@
     color: black;
 }
 
-@media screen and (min-width: 426px) {
+@media screen and (min-width: 768px) {
 
     .navbar {
         display: flex;
         justify-content: space-between;
         height: 80px;
-        position: absolute;
         width: 100%;
         z-index: 1;
         background-color: transparent;
+    }
+
+    .nav-link.active {
+        color: transparent;
+        transition: top 0.3s;
     }
 
     .navbar-menu {
