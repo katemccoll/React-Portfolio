@@ -3,14 +3,14 @@
     display: flex;
     list-style: none;
     padding: 10px;
-    background-color: var(--darker-pink);
+    background-color: var(--white);
     height: 80px;
     font-size: 20px;
     align-items: center;
 }
 
 .footer-icon {
-    color: var(--white);
+    color: var(--black);
     text-decoration: none;
     padding: 1rem;
     margin: 1rem;
@@ -18,7 +18,7 @@
 }
 
 .footer-icon:hover {
-    border: 0.2rem solid var(--white);
+    border: 0.2rem solid var(--black);
     border-radius: 1rem;
 }
 

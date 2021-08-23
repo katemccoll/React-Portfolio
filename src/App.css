@@ -7,7 +7,9 @@
 }
 
 :root {
+  --black: #000;
   --white: #ffffff;
+  --light-pink: #d4a09b;
   --pink: #fa8071;
   --darker-pink: #f46459;
   --light-green: #cbdaba;
