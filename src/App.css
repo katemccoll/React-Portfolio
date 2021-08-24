@@ -9,9 +9,20 @@
 :root {
   --black: #000;
   --white: #ffffff;
-  --light-pink: #d4a09b;
-  --pink: #fa8071;
+  --light-pink: #fdd1c6;
+  --pink: #ffb09e;
+  --pink1: #ffafab;
   --darker-pink: #f46459;
-  --light-green: #cbdaba;
+  --darker-pink1: #EE6368FF;
+  --yellow: #F8CE69FF;
+  --light-green: #d1f5cb;
   --green: #aac38e;
+  --green2: #8FCA85FF;
+  --blue: #8ecae6;
+  --blue2: #add4e3;
+  --light-blue: #edf6fb;
+  --light-blue2: #c7dae0;
+  --light-purple: #CA9AD8FF;
+  --purple: #a857be;
+  --light-grey: #e3e3e3;
 }
