@@ -1,13 +1,15 @@
 import React from "react";
 import "./assets/css/About.css";
+import ProfilePicture from "./assets/images/Kate-McColl-Profile.jpg"
 
-export default function About() {
+const About = () => {
     return (
+
         <div id="about-container">
-            <div id="about">
-                <div id="profile"></div>
-            </div>
+            <img id="profile-picture" src={ProfilePicture} alt="profile of Kate" />
             <article id="about-me">
+                <h4>Front End Developer / Artist</h4>
+                <h1>MORE ABOUT KATE</h1>
                 <p>
                     Hello! I am Kate and I am born and raised in Dunedin, New Zealand. After completing my Fine Arts
                     degree at
@@ -48,3 +50,5 @@ export default function About() {
 
     )
 }
+
+export default About;

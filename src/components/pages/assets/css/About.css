@@ -1,7 +1,7 @@
-:root {
-    --white: #ffffff;
-    --pink: #fa8071;
-    --darker-pink: #f46459;
+#about-container {
+    padding-top: 80px;
+    text-align: center;
+    background-color: var(--pink1);
 }
 
 #about {
@@ -12,34 +12,36 @@
     text-align: -webkit-center;
 }
 
-#profile {
-    border: 5px solid var(--darker-pink);
-    border-radius: 1rem;
-    background-image: url(../images/Kate-McColl-Profile.jpg);
-    background-size: cover;
-    height: 200px;
+#profile-picture {
+    border-radius: 100%;
+    object-fit: cover;
+    height: 40vh;
     width: 80%;
-    background-position: center;
 }
 
 #about-me {
-    border-top: 5px solid var(--darker-pink);
-    border-bottom: 5px solid var(--darker-pink);
-    margin: 40px;
+    background-color: var(--light-pink);
+    padding: 40px;
     text-align: center;
     line-height: 1.5;
-    margin: 40px;
+    margin-top: 80px;
 }
 
 p {
     margin: 14px 0;
 }
 
-@media screen and (min-width: 426px) {
-    #profile {
-        width: 100%;
-        height: 500px;
-        background-position: center;
+@media screen and (min-width: 425px) {
+    #profile-picture {
+        width: 400px;
+        height: 50vh;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #profile-picture {
+        width: 500px;
+        height: 60vh;
     }
 }
 
