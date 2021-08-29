@@ -10,7 +10,7 @@ const ProjectCards = () => {
         <div className="project-card-container">
 
             <div className="TB project-image">
-                <h3 className="featured-title">
+                <h3 className="project-title">
                     Tech Blog
                 </h3>
                 <ul className="tech-list">
@@ -30,7 +30,7 @@ const ProjectCards = () => {
             </div>
 
             <div className="project-image NT">
-                <h3 className="featured-title">Note Taker</h3>
+                <h3 className="project-title">Note Taker</h3>
                 <ul className="tech-list">
                     <li>Node</li>
                     <li>Bootstrap</li>
@@ -47,7 +47,7 @@ const ProjectCards = () => {
             </div>
 
             <div className="project-image WD">
-                <h3 className="featured-title">Weather Dashboard</h3>
+                <h3 className="project-title">Weather Dashboard</h3>
                 <ul className="tech-list">
                     <li>jQuery</li>
                     <li>API</li>
@@ -63,7 +63,7 @@ const ProjectCards = () => {
             </div>
 
             <div className="project-image DP">
-                <h3 className="featured-title">Day Planner</h3>
+                <h3 className="project-title">Day Planner</h3>
                 <ul className="tech-list">
                     <li>jQuery</li>
                     <li>Bootstrap</li>
