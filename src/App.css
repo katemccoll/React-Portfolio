@@ -2,8 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-  'Lucida Sans', Arial, sans-serif;
+  font-family: var(--mulish);
 }
 
 :root {
@@ -19,10 +18,12 @@
   --green: #aac38e;
   --green2: #8FCA85FF;
   --blue: #8ecae6;
-  --blue2: #add4e3;
+  --blue2: #b6dbea;
   --light-blue: #edf6fb;
   --light-blue2: #c7dae0;
   --light-purple: #CA9AD8FF;
   --purple: #a857be;
   --light-grey: #e3e3e3;
+  --play-fair: 'Playfair Display', serif;
+  --mulish: 'Mulish', sans-serif;
 }
