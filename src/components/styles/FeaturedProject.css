@@ -1,0 +1,84 @@
+.featured-container {
+    width: 100%;
+}
+
+.text-block {
+    background-color: var(--white);
+    padding: 40px;
+    color: var(--black);
+    display: grid;
+}
+
+.large-image {
+    width: 100%;
+}
+
+.tech-list {
+    list-style: none;
+}
+
+.featured-title {
+
+}
+
+.featured {
+    color: var(--blue);
+    text-transform: uppercase;
+}
+
+.TR .project-icon a {
+    color: var(--blue);
+}
+
+.MSL .project-icon a {
+    color: var(--blue);
+}
+
+
+@media screen and (min-width: 768px) {
+    .featured-container {
+        display: flex;
+        height: 60vh;
+        justify-content: space-around;
+        background-color: var(--blue2);
+        width: 100%;
+        text-align: center;
+        padding: 40px;
+    }
+
+    .large-image {
+        align-self: center;
+        width: 40%;
+    }
+
+    .text-block {
+        width: 45%;
+    }
+
+    .TR {
+        background-color: var(--blue2);
+    }
+
+    .MSL {
+        background-color: var(--light-blue);
+    }
+
+
+}
+
+@media screen and (min-width: 1024px) {
+    .featured-container {
+        height: 60vh;
+        justify-content: space-evenly;
+
+    }
+
+    .large-image {
+        width: 30vw;
+    }
+
+    .text-block {
+        width: 400px;
+    }
+}
+
