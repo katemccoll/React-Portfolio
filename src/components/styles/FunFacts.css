@@ -1,8 +1,40 @@
 .facts-container {
-    background-color: #cbdaba;
+    background-color: var(--light-green);
     padding: 20px;
 }
 
 .single-fact-container {
     padding: 10px;
+}
+
+.kiwi-homepage {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .facts-container {
+        padding: 40px;
+    }
+    .single-fact-container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .row-reverse {
+        flex-direction: row-reverse;
+    }
+    .fact-text-container {
+        width: 45%;
+        align-self: center;
+    }
+    .kiwi-homepage {
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .single-fact-container {
+        width: 940px;
+        margin: auto;
+    }
 }
