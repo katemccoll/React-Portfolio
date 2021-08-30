@@ -1,6 +1,6 @@
 .facts-container {
     background-color: var(--light-green);
-    padding: 20px;
+    padding: 40px 20px;
 }
 
 .single-fact-container {
@@ -9,6 +9,14 @@
 
 .kiwi-homepage {
     width: 100%;
+}
+
+.fact-text-container p {
+    margin: 14px 0;
+}
+
+.fact-text-container h2 {
+    font-family: var(--play-fair);
 }
 
 @media screen and (min-width: 768px) {

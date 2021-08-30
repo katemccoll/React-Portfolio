@@ -1,13 +1,21 @@
 .heroContainer {
     display: grid;
-    background-color: #aac38e;
+    background-color: var(--green2);
     padding-top: 60px;
 }
 
-.heroText h1,
-.heroText h3{
+.heroText {
+    text-align: center;
+}
+
+.heroText h1 {
+    color: var(--white);
+    font-family: var(--play-fair);
+    font-size: 2rem;
     padding: 40px 25px 0;
-    text-align: end;
+}
+.heroText p{
+    padding: 20px;
 }
 
 .heroImage {
@@ -19,13 +27,18 @@
     .heroContainer {
         display: flex;
         flex-direction: row-reverse;
-        justify-content: space-around;
+        place-content: center;
 
     }
 
     .heroText {
         align-self: center;
     }
+
+    .heroText p {
+        font-size: 18px;
+    }
+
 
     .heroImage {
         width: 50%;
@@ -37,5 +50,13 @@
     .heroImage {
         width: auto;
         height: 92vh;
+    }
+
+    .heroText h1 {
+        font-size: 40px;
+    }
+
+    .heroText p {
+        font-size: 24px;
     }
 }
