@@ -15,23 +15,29 @@
 
 .tech-list {
     list-style: none;
+    padding: 14px 0;
 }
 
 .featured-title {
-
+    font-family: var(--play-fair);
+    padding: 20px 0;
 }
 
 .featured {
-    color: var(--blue);
+    color: var(--darker-blue);
     text-transform: uppercase;
 }
 
-.TR .project-icon a {
-    color: var(--blue);
+.TR .project-icon a,
+.MSL .project-icon a,
+.Cellar .project-icon a{
+    color: var(--darker-blue);
 }
 
-.MSL .project-icon a {
-    color: var(--blue);
+.tech-list li {
+    font-style: italic;
+    text-transform: uppercase;
+    padding: 6px 0;
 }
 
 
@@ -40,7 +46,7 @@
         display: flex;
         height: 60vh;
         justify-content: space-around;
-        background-color: var(--blue2);
+        background-color: var(--blue);
         width: 100%;
         text-align: center;
         padding: 40px;

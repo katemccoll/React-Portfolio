@@ -50,6 +50,9 @@ const FunFacts = () => {
                     </h2>
                     <p>Even though I am fresh out of my web developer training and newbie with digital art,
                     what I do have is a creative mind and eagerness to learn.</p>
+                    <div className="email-button">
+                        <a href="/contact">Contact Me</a>
+                    </div>
                 </div>
                 <img src={KiwiDance} alt="Kiwi Reading" className="kiwi-homepage"/>
             </div>

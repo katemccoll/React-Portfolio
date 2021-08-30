@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles/FeaturedProject.css";
 
+import Cellar from "./pages/assets/images/Cellar.JPG";
 import TechReady from "./pages/assets/images/portfolio/techReady.jpg";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import SuperHero from "./pages/assets/images/portfolio/marvel_superhero_locator.JPG";
@@ -11,6 +12,29 @@ const FeaturedProject = () => {
 
     return (
         <>
+            <section className="featured-container Cellar">
+                <img className="large-image" src={Cellar}
+                     alt="Cellar" />
+                <div className="text-block">
+                    <p className="featured">Featured Project</p>
+                    <h2 className="featured-title">Cellar</h2>
+                    <p className="featured-description">
+                        Cellar privately tracks the wines that you like and dislike,
+                        which helps you buy the wines you love and avoid the ones you don’t.
+                    </p>
+                    <ul className="tech-list">
+                        <li>Solo Project</li>
+                        <li>React</li>
+                        <li>JWT</li>
+                    </ul>
+                    <div className="project-icon">
+                        <a href="https://cellar-km.herokuapp.com/"
+                           target="_blank" rel="noreferrer" className="icon-link"><FontAwesomeIcon icon={["fas", "link"]} /></a>
+                        <a href="https://github.com/katemccoll/Cellar"
+                           target="_blank" rel="noreferrer" className="icon-github"><FontAwesomeIcon icon={['fab', 'github']} /></a>
+                    </div>
+                </div>
+            </section>
             <section className="featured-container TR">
                 <img className="large-image" src={TechReady}
                      alt="Tech Ready" />

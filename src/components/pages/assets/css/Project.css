@@ -1,7 +1,38 @@
 .more-container {
+    display: grid;
     background-color: var(--blue);
     color: white;
-    height: 30vh;
     width: 100%;
-    padding: 40px;
+    padding: 40px 40px 0;
+    text-align: center;
+}
+
+.more-container h1 {
+    font-family: var(--play-fair);
+}
+
+.more-container p {
+    padding: 20px 0;
+}
+
+.more-container a {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    width: fit-content;
+    text-decoration: none;
+    color: var(--darker-blue);
+    place-self: center;
+    font-weight: 800;
+}
+
+.excited-girl {
+    width: 100%;
+}
+
+@media screen and (min-width: 426px) {
+    .excited-girl {
+        width: 345px;
+        place-self: center;
+    }
 }

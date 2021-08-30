@@ -8,18 +8,27 @@
     padding: 120px 20px;
     text-align: center;
 }
+.contact-container h1 {
+    font-family: var(--play-fair);
+}
+
+.contact-container p {
+    padding: 20px 0;
+}
 
 .email-button {
     background-color: var(--purple);
     padding: 15px;
     border-radius: 30px;
     width: fit-content;
-    margin: auto;
+    margin: 20px 0;
+    align-self: center;
 }
 
 .email-button a {
     color: var(--white);
     text-decoration: none;
+    font-weight: 800;
 }
 
 .kiwi-mail {

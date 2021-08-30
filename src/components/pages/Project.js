@@ -4,6 +4,8 @@ import ProjectBanner from "../ProjectBanner";
 import FeaturedProject from "../FeaturedProject";
 import ProjectCards from "../ProjectCards";
 
+
+import ExcitedGirl from "../pages/assets/images/excited.png";
 import "./assets/css/Project.css";
 
 function Projects() {
@@ -22,7 +24,7 @@ function Projects() {
                 rel="noreferrer"
             >MORE PROJECTS
             </a>
-
+            <img className="excited-girl" src={ExcitedGirl} alt="girl excited"/>
         </div>
     </div>
     );

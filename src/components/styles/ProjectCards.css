@@ -1,5 +1,5 @@
 .project-card-container {
-    background-color: var(--light-grey);
+    background-color: var(--light-blue2);
     padding: 40px;
     justify-content: space-evenly;
     flex-flow: wrap;
@@ -74,11 +74,9 @@
 
 .project-title {
     padding: 10px 0;
+    font-family: var(--play-fair);
 }
 
-.tech-list li {
-    padding: 6px;
-}
 
 .project-icon {
     align-self: end;
@@ -89,7 +87,6 @@
     margin: 0 10px;
     padding: 4px;
     border-radius: 100%;
-    box-shadow: inset -1px 3px 8px 5px rgba(255, 255, 255, 0.85), 2px 5px 16px 2px rgba(199, 199, 199, 0.58), 0 0 20px 8px rgba(128, 128, 128, 0);
 }
 
 

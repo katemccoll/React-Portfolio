@@ -16,12 +16,13 @@ const About = () => {
                     the University of Canterbury in 2016, I moved to Melbourne. While there, I worked at an Australian art and gift shop.
                     While I enjoyed the personal aspect of my job, it drained a lot of my artistic ambition, so when I came
                     home I often want to get away from art.
-
-                    
+               </p>
+                <p>
                     A career as a web developer would be great because I'd be able to focus on solving interesting
                     problems
                     during the day, while still having the energy and desire to create my art outside of work.
                     I have now moved back to New Zealand, but the great thing about web development is that you can work anywhere in the world!
+
                 </p>
 
                 <p>
