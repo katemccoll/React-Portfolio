@@ -9,8 +9,8 @@ const HeroSection = () => {
         <>
         <section className="heroContainer">
             <div className="heroText">
-                <h1>Kia Ora & Welcome!</h1>
-                <p>I am Kate and I am a web developer</p>
+                <h1>Hello, I'm Kate!</h1>
+                <p>I am an artist and a web developer.</p>
 
             </div>
             <img className="heroImage" src={KatePortrait} alt="Kate portrait"/>

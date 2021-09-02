@@ -14,13 +14,13 @@ const FunFacts = () => {
                     <h2>Just a little bit about me...</h2>
                     <p>
                         Best known for always having a smile on my face and a bubbly personality to match.
-                        I always try to find the fun in what in what I do as
+                        I always try to find the fun in what in what I do and
                         I believe that is when I produce my best work.
 
                     </p>
                     <p>
                         In my spare time, you will can find me in a sunny spot reading a book or
-                        in front of the tv building lego.
+                        in front of the TV building LEGO.
                     </p>
                 </div>
 
@@ -30,14 +30,12 @@ const FunFacts = () => {
                 <div className="fact-text-container">
                     <h2>My passion in life...</h2>
                     <p>
-                        Art is my passion! I have been drawn to art from a young age, always interested in emotion and
-                        fine detail that painting can bring. I love to experiment with my art and my subject matters, from
-                        people to abstract art.
+                        Art was my first my passion in life. I was drawn to art from a young age because it let me explore things I couldn't articulate.
+                        I love to experiment with my art and love perfecting the fine detail everything from portraits, to abstract, and now... Programming!
                     </p>
                     <p>
-                        My latest experiment is digital art! I am enjoying all of the many brushes and
-                        the ease of erasing mistakes. I am currently learning about illustrations and all the different
-                        opportunities there.
+                        While training to become a Web Developer, I realised it was the perfect medium to combine both my logical side, and my artistic side.
+                        As such, all of the images you see on my website were drawn by me!
                     </p>
                 </div>
 
@@ -48,8 +46,11 @@ const FunFacts = () => {
                     <h2>
                         Want to work together?
                     </h2>
-                    <p>Even though I am fresh out of my web developer training and newbie with digital art,
-                    what I do have is a creative mind and eagerness to learn.</p>
+                    <p>I have completed my coding bootcamp through Monash University, and I'm really excited to continue
+                        developing my skills.</p>
+                            <p>I love making websites, I love creating digital art, and I'm ready to get started.
+
+                        </p>
                     <div className="email-button">
                         <a href="/contact">Contact Me</a>
                     </div>
