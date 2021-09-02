@@ -1,3 +1,9 @@
+.about-nav {
+    background-color: var(--darker-pink);
+    height: 80px;
+    top: 0;
+    position: sticky;
+}
 #about-container {
     padding-top: 80px;
     text-align: center;

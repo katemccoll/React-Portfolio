@@ -1,8 +1,57 @@
+.resume-nav {
+    background-color: var(--yellow);
+    height: 80px;
+    top: 0;
+    position: sticky;
+}
+
 .resume-container {
     background-color: var(--yellow);
     color: var(--white);
-    height: 90vh;
     width: 100%;
     padding: 20vh 6vw;
     text-align: center;
+}
+
+.resume-title {
+    font-family: var(--play-fair);
+}
+
+.card-resume-container {
+    padding: 40px 0;
+}
+
+.card-resume ul {
+    padding: 20px 0;
+}
+
+
+.kiwi-grad {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .info-resume-container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .card-resume-container {
+        width: 45%;
+        align-self: center;
+    }
+
+    .kiwi-grad  {
+
+    }
+    .kiwi-grad-container {
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .info-resume-container {
+        width: 940px;
+        margin: auto;
+    }
 }

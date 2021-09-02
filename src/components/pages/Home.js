@@ -6,6 +6,7 @@ import FunFacts from "../FunFacts";
 const Home = () => {
     return (
         <>
+            <div className="home-nav" />
             <HeroSection />
             <FunFacts />
         </>

@@ -10,7 +10,8 @@ import "./assets/css/Project.css";
 
 function Projects() {
     return (
-    <div>
+    <>
+        <div className="project-nav" />
         <ProjectBanner />
         <FeaturedProject />
         <ProjectCards />
@@ -26,7 +27,7 @@ function Projects() {
             </a>
             <img className="excited-girl" src={ExcitedGirl} alt="girl excited"/>
         </div>
-    </div>
+    </>
     );
 }
 

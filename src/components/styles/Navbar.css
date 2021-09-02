@@ -8,8 +8,8 @@
     width: 100%;
     top: 0;
     transition: top 0.3s;
+    z-index: 6;
 }
-
 
 
 .navbar-logo {
@@ -38,7 +38,6 @@
 
 .navbar-menu.active {
     display: flex;
-    z-index: 1;
     background: var(--white);
     width: 100%;
     justify-content: center;
@@ -71,12 +70,16 @@
         justify-content: space-around;
         height: 80px;
         width: 100%;
-        z-index: 1;
         background-color: transparent;
     }
 
     .nav-link.active {
         color: transparent;
+        transition: top 0.3s;
+    }
+
+    .nav-link:hover {
+        color: var(--white);
         transition: top 0.3s;
     }
 
