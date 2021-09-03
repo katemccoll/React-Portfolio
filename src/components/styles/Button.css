@@ -1,0 +1,78 @@
+.btn {
+    padding: 10px 0;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: 600;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.8s ease;
+    position: relative;
+    display: inline-block;
+    border: none;
+    outline: none;
+}
+
+.btn a {
+    padding: 10px 25px;
+    color: var(--white);
+    text-decoration: none;
+}
+
+
+
+/* Fun facts contact button */
+.btn-purple {
+    background: var(--purple);
+    border: none;
+    z-index: 5;
+}
+
+.btn-purple:hover {
+    position: inherit;
+    border-radius: 10px;
+    box-shadow: inset 400px 0 0 0 var(--light-purple);
+}
+
+.btn-blue {
+    background: #15308c;
+    border: none;
+    z-index: 5;
+}
+
+.btn-blue:hover {
+    position: inherit;
+    border-radius: 10px;
+    box-shadow: inset 400px 0 0 0 var(--darker-blue);
+}
+
+.btn-yellow {
+    background: #ffc107;
+    border: none;
+    z-index: 5;
+}
+
+.btn-yellow:hover {
+    position: inherit;
+    border-radius: 10px;
+    box-shadow: inset 400px 0 0 0 var(--yellow);
+}
+
+
+.btn-white {
+    background: var(--white);
+
+    border: none;
+    z-index: 5;
+    max-width: max-content;
+    margin: auto;
+}
+
+.btn-white a {
+    color: var(--darker-blue);
+}
+
+.btn-white:hover {
+    position: inherit;
+    border-radius: 10px;
+    box-shadow: inset 400px 0 0 0 #2d3e50;
+}

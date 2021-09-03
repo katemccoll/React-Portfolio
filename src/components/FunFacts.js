@@ -4,6 +4,7 @@ import KiwiArt from "../components/pages/assets/images/kiwi-art.png";
 import KiwiDance from "../components/pages/assets/images/kiwi-dancing.png";
 
 import "./styles/FunFacts.css";
+import "./styles/Button.css";
 
 const FunFacts = () => {
 
@@ -51,9 +52,9 @@ const FunFacts = () => {
                             <p>I love making websites, I love creating digital art, and I'm ready to get started.
 
                         </p>
-                    <div className="email-button">
+                    <button className="btn btn-slide btn-purple">
                         <a href="/contact">Contact Me</a>
-                    </div>
+                    </button>
                 </div>
                 <img src={KiwiDance} alt="Kiwi Reading" className="kiwi-homepage"/>
             </div>

@@ -18,13 +18,15 @@ function Projects() {
         <div className="more-container">
             <h1>Want to see more of my work?</h1>
             <p>Check out all of my projects on my github</p>
-            <a
-                href="https://github.com/katemccoll?tab=repositories"
-                type="button"
-                target="_blank"
-                rel="noreferrer"
-            >MORE PROJECTS
-            </a>
+            <button className="btn btn-white">
+                <a
+                    href="https://github.com/katemccoll?tab=repositories"
+                    target="_blank"
+                    rel="noreferrer"
+                >MORE PROJECTS
+                </a>
+            </button>
+
             <img className="excited-girl" src={ExcitedGirl} alt="girl excited"/>
         </div>
     </>

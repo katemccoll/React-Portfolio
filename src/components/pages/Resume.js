@@ -23,26 +23,16 @@ function Resume() {
                                 <li>Node.js</li>
                                 <li>React</li>
                             </ul>
-                            <button type="button">
-                                <a className="resume-btn" href={ResumeDoc} download="Web_Developer_Resume_Kate_McColl" target="_blank" rel="noreferrer">Download my resume</a>
+                            <button className="btn btn-blue" type="button">
+                                <a className="resume-btn-text" href={ResumeDoc} download="Web_Developer_Resume_Kate_McColl" target="_blank" rel="noreferrer">Download my resume</a>
                             </button>
                         </div>
-                        <div className="card-resume">
-                            <p>Somethings you may not know about me</p>
-                            <ul>
-                                <li>I have a Fine Arts Degree</li>
-                                <li>Lego Builder</li>
-                                <li>A wannabe Sudoku Master</li>
-                                <li>Baker</li>
-                                <li>Passion for creating stunning websites</li>
-                            </ul>
-                        </div>
                     </div>
+
                     <div className="kiwi-grad-container">
                         <img className="kiwi-grad" src={KiwiGrad} alt="kiwi in grad hat"/>
                     </div>
                 </div>
-
             </div>
         </>
 
