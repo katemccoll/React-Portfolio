@@ -10,7 +10,7 @@
     flex-flow: column;
     height: 100vh;
     width: 100%;
-    background-color: var(--light-purple);
+    background: radial-gradient(circle, rgba(234,193,246,1) 0%, rgba(202,154,216,1) 100%);
     color: var(--white);
     padding: 120px 20px;
     text-align: center;

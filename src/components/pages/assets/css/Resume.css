@@ -1,15 +1,16 @@
 .resume-nav {
-    background-color: var(--yellow);
+    background-color: var(--teal);
     height: 80px;
     top: 0;
     position: sticky;
 }
 
 .resume-container {
-    background-color: var(--yellow);
+    background: radial-gradient(circle, rgba(157,223,223,1) 0%, rgba(99,183,183,1) 100%);
     color: var(--white);
     width: 100%;
     padding: 5vh 6vw;
+    line-height: 2;
     text-align: center;
 }
 
@@ -21,7 +22,7 @@
     padding: 40px 0;
 }
 
-.card-resume ul {
+.card-resume-container ul {
     padding: 20px 0;
     list-style: none;
     line-height: 2;
@@ -34,9 +35,11 @@
 }
 
 @media screen and (min-width: 768px) {
-    .info-resume-container {
+    .resume-container {
         display: flex;
         justify-content: space-around;
+        height: 95vh;
+        align-items: center;
     }
 
     .card-resume-container {
@@ -45,18 +48,16 @@
     }
 
     .kiwi-grad  {
+        width: 400px;
 
     }
     .kiwi-grad-container {
         width: 45%;
     }
-    .resume-container {
-        padding: 20vh 6vw;
-    }
 }
 
 @media screen and (min-width: 1024px) {
-    .info-resume-container {
+    .card-resume-container {
         width: 940px;
         margin: auto;
     }

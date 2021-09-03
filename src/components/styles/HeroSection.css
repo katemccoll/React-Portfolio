@@ -1,7 +1,6 @@
 .heroContainer {
     display: grid;
-    background-color: var(--green2);
-    padding-top: 60px;
+    background: radial-gradient(circle, rgba(197,244,189,1) 0%, rgba(143,202,133,1) 100%);    padding-top: 60px;
 }
 
 .heroText {
@@ -21,19 +20,6 @@
 .heroImage {
     width: 100%;
 }
-
-/*.scroll-down-icon-hero {*/
-/*    position: fixed;*/
-/*    top: 90vh;*/
-/*    align-self: end;*/
-/*    padding: 40px;*/
-/*    font-size: 24px;*/
-/*}*/
-
-/*.scroll-down-icon-hero.active {*/
-/*    transition: 0.65s cubic-bezier(0.62, 0.02, 0.34, 1) 0.35s;*/
-/*    color: transparent;*/
-/*}*/
 
 @media screen and (min-width: 768px) {
     .heroContainer {

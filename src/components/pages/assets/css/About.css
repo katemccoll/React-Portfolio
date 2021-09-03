@@ -7,7 +7,7 @@
 #about-container {
     padding-top: 80px;
     text-align: center;
-    background-color: var(--darker-pink);
+    background: radial-gradient(circle, rgba(255,175,171,1) 0%, rgba(244,100,89,1) 100%);
 }
 
 #about {
