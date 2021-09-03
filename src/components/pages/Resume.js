@@ -10,29 +10,29 @@ function Resume() {
         <>
             <div className="resume-nav" />
             <div className="resume-container">
-                <h2 className="resume-title">Looking for a front end developer?</h2>
-                <div className="info-resume-container">
                     <div className="card-resume-container">
-                        <div className="card-resume">
-                            <p>Some of the skills I have gained from Monash University Coding Bootcamp</p>
+                            <h1 className="resume-title">Looking for a front end developer?</h1>
+                            <h3>Some of the technologies I have used</h3>
                             <ul>
                                 <li>HTML</li>
                                 <li>CSS</li>
                                 <li>JavaScript</li>
                                 <li>jQuery</li>
                                 <li>Node.js</li>
+                                <li>Express.js</li>
+                                <li>MongoDB</li>
                                 <li>React</li>
+                                <li>JWT</li>
+                                <li>GraphQL</li>
                             </ul>
                             <button className="btn btn-blue" type="button">
                                 <a className="resume-btn-text" href={ResumeDoc} download="Web_Developer_Resume_Kate_McColl" target="_blank" rel="noreferrer">Download my resume</a>
                             </button>
-                        </div>
                     </div>
 
                     <div className="kiwi-grad-container">
                         <img className="kiwi-grad" src={KiwiGrad} alt="kiwi in grad hat"/>
                     </div>
-                </div>
             </div>
         </>
 

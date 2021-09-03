@@ -5,11 +5,14 @@
     font-weight: 600;
     background: transparent;
     cursor: pointer;
-    transition: all 0.8s ease;
     position: relative;
     display: inline-block;
     border: none;
     outline: none;
+}
+
+.btn:before {
+    transition: all 0.8s ease;
 }
 
 .btn a {
@@ -18,13 +21,9 @@
     text-decoration: none;
 }
 
-
-
-/* Fun facts contact button */
 .btn-purple {
     background: var(--purple);
     border: none;
-    z-index: 5;
 }
 
 .btn-purple:hover {
@@ -36,7 +35,6 @@
 .btn-blue {
     background: #15308c;
     border: none;
-    z-index: 5;
 }
 
 .btn-blue:hover {
@@ -48,7 +46,6 @@
 .btn-yellow {
     background: #ffc107;
     border: none;
-    z-index: 5;
 }
 
 .btn-yellow:hover {
@@ -60,9 +57,7 @@
 
 .btn-white {
     background: var(--white);
-
     border: none;
-    z-index: 5;
     max-width: max-content;
     margin: auto;
 }

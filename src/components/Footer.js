@@ -17,12 +17,6 @@ function Footer() {
                         <FontAwesomeIcon icon={['fab', 'linkedin']} />
                     </a>
                 </li>
-                <li>
-                    <a className="footer-icon" href="https://twitter.com/kittykat6065059" target="_blank" rel="noreferrer">
-                        <FontAwesomeIcon icon={['fab', 'twitter']} />
-                    </a>
-                </li>
-
             </ul>
         </div>
     );

@@ -1,4 +1,5 @@
 import React from "react";
+
 import KiwiReading from "../components/pages/assets/images/kiwi-reading.png";
 import KiwiArt from "../components/pages/assets/images/kiwi-art.png";
 import KiwiDance from "../components/pages/assets/images/kiwi-dancing.png";
@@ -53,7 +54,7 @@ const FunFacts = () => {
 
                         </p>
                     <button className="btn btn-slide btn-purple">
-                        <a href="/contact">Contact Me</a>
+                        <a href="/contact" type="button" >Contact Me</a>
                     </button>
                 </div>
                 <img src={KiwiDance} alt="Kiwi Reading" className="kiwi-homepage"/>
