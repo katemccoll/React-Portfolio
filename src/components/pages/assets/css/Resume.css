@@ -9,7 +9,7 @@
     background-color: var(--yellow);
     color: var(--white);
     width: 100%;
-    padding: 20vh 6vw;
+    padding: 5vh 6vw;
     text-align: center;
 }
 
@@ -23,7 +23,10 @@
 
 .card-resume ul {
     padding: 20px 0;
+    list-style: none;
+    line-height: 2;
 }
+
 
 
 .kiwi-grad {
@@ -46,6 +49,9 @@
     }
     .kiwi-grad-container {
         width: 45%;
+    }
+    .resume-container {
+        padding: 20vh 6vw;
     }
 }
 

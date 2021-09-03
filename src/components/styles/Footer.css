@@ -14,13 +14,28 @@
     text-decoration: none;
     padding: 1rem;
     margin: 1rem;
-    border: 0.2rem solid transparent;
+    position: relative;
 }
 
-.footer-icon:hover {
-    border: 0.2rem solid var(--black);
-    border-radius: 1rem;
+.footer-icon:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: var(--black);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
 }
+.footer-icon:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+
+
 
 @media screen and (min-width: 426px) {
     .footer {

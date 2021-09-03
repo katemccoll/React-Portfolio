@@ -9,6 +9,7 @@
     top: 0;
     transition: top 0.3s;
     z-index: 6;
+    box-shadow: 8px -2px 5px var(--black);
 }
 
 
@@ -63,6 +64,7 @@
     color: black;
 }
 
+
 @media screen and (min-width: 768px) {
 
     .navbar {
@@ -73,14 +75,35 @@
         background-color: transparent;
     }
 
-    .nav-link.active {
-        color: transparent;
-        transition: top 0.3s;
-    }
-
     .nav-link:hover {
         color: var(--white);
-        transition: top 0.3s;
+    }
+
+    .nav-link {
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        padding: 15px 20px;
+        content: "";
+        position: relative;
+    }
+
+    .nav-link:after {
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 2px;
+        left: 50%;
+        position: absolute;
+        background: var(--white);
+        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        width: 0;
+    }
+
+    .nav-link:hover:after {
+        width: 100%;
+        left: 0;
     }
 
     .navbar-menu {

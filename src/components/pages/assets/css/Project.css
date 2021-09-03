@@ -22,17 +22,6 @@
     padding: 20px 0;
 }
 
-.more-container a {
-    background-color: white;
-    padding: 10px;
-    border-radius: 20px;
-    width: fit-content;
-    text-decoration: none;
-    color: var(--darker-blue);
-    place-self: center;
-    font-weight: 800;
-}
-
 .excited-girl {
     width: 100%;
 }

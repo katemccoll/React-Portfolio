@@ -2,7 +2,7 @@ import React from "react";
 import "./styles/ProjectCards.css";
 
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import WorkDay from "./pages/assets/images/portfolio/work_day.JPG";
+
 
 
 const ProjectCards = () => {
