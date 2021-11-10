@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React, {useEffect, useState} from "react";
 import './styles/Navbar.css'
 import { Link } from "react-router-dom";
+import {useLocation} from "react-router-dom/cjs/react-router-dom";
 
 
 const Navbar = () => {
@@ -10,6 +11,14 @@ const Navbar = () => {
     const handleClick = () => setClick(!click);
 
     const closeMobileMenu = () => setClick(false);
+
+    const ScrollToTop = () => {
+        const { pathname } = useLocation();
+        useEffect(() => {
+            window.scrollTo(0, 0);
+        }, [pathname]);
+        return null;
+    }
 
     return (
         <nav className="navbar">
@@ -23,7 +32,7 @@ const Navbar = () => {
                             to="/"
                             className="nav-link"
                             onClick={closeMobileMenu}
-                        >
+                        ><ScrollToTop />
                             Home
                         </Link>
                     </li>
