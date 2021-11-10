@@ -16,7 +16,7 @@ const FunFacts = () => {
                     <h2>Just a little bit about me...</h2>
                     <p>
                         Best known for always having a smile on my face and a bubbly personality to match.
-                        I always try to find the fun in what in what I do and
+                        I always try to find the fun in what I do and
                         I believe that is when I produce my best work.
 
                     </p>

@@ -15,7 +15,10 @@ import initFontAwesome from "./components/initFontAwesome";
 initFontAwesome()
 
 function App() {
+
+
     return (
+
         <Router>
             <Navbar />
             <Switch>

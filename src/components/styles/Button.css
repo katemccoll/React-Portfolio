@@ -22,6 +22,7 @@
 }
 
 .btn-purple {
+    margin: 20px 0;
     background: var(--purple);
     border: none;
 }
